@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_wrap"
+    android:orientation="vertical" >
+
+    <ScrollView style="@style/add_dialog_scroll_view" >
+
+        <RelativeLayout
+            style="@style/match_wrap">
+
+            <TextView
+                android:id="@+id/add_ucet_id"
+                style="@style/listrow_id" />
+
+            <EditText
+                android:id="@+id/add_ucet_nazov"
+                style="@style/add_dialog_side_bottom_margins"
+                android:hint="@string/add_ucet_nazov_hint"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/add_ucet_cislo"
+                android:layout_below="@+id/add_ucet_nazov"
+                style="@style/add_dialog_side_margins"
+                android:digits="0123456789"
+                android:hint="@string/add_ucet_cislo_hint"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/add_ucet_zostatok"
+                android:layout_below="@+id/add_ucet_cislo"
+                style="@style/add_dialog_side_bottom_margins"
+                android:hint="@string/add_ucet_zost_hint"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/add_ucet_disp_zostatok"
+                android:layout_below="@+id/add_ucet_zostatok"
+                style="@style/add_dialog_side_margins"
+                android:hint="@string/add_ucet_dist_zost_hint"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/add_ucet_mena"
+                android:layout_below="@+id/add_ucet_disp_zostatok"
+                style="@style/add_dialog_side_margins"
+                android:hint="@string/add_ucet_mena_hint"
+                android:text="@string/euro"
+                android:inputType="textCapCharacters" />
+
+            <TextView
+                android:id="@+id/add_ucet_banky_text"
+                android:layout_below="@+id/add_ucet_mena"
+                android:layout_alignBaseline="@+id/add_ucet_banky"
+                style="@style/add_dialog_spinner_label"
+                android:text="@string/add_ucet_banka" />
+
+            <Spinner
+                android:id="@+id/add_ucet_banky"
+                android:layout_toRightOf="@+id/add_ucet_banky_text"
+                android:layout_below="@+id/add_ucet_mena"
+                style="@style/add_dialog_side_margins" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout style="@style/match_wrap">
+
+        <Button
+            android:id="@+id/dialog_naspat"
+            style="@style/add_dialog_btn_weight"
+            android:text="@string/naspat" />
+
+        <Button
+            android:id="@+id/dialog_add"
+            style="@style/add_dialog_btn_weight"
+            android:text="@string/pridat" />
+    </LinearLayout>
+
+</LinearLayout>

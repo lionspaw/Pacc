@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match" 
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:paddingTop="2dp">
+	<RelativeLayout
+	    style="@style/wrap_wrap"
+	    android:paddingRight="2dp"
+	    >
+	    <TextView
+	        android:id="@+id/forecast_ucty_text"
+	        style="@style/forecast_label"
+	        android:layout_alignBaseline="@+id/forecast_ucty"
+	        android:text="@string/forecast_ucet" />
+	
+	    <Spinner
+	        android:id="@+id/forecast_ucty"
+	        android:layout_toRightOf="@+id/forecast_ucty_text"
+	        style="@style/wrap_wrap" />
+	
+	    <TextView
+	        android:id="@+id/forecast_radio_text"
+	        android:layout_below="@+id/forecast_ucty"
+	        style="@style/forecast_label"
+	        android:text="@string/forecast_obdobie" />
+	
+	    <RadioGroup
+	        android:id="@+id/forecast_obdobie"
+	        style="@style/wrap_wrap"
+	        android:layout_below="@+id/forecast_radio_text"
+	        android:checkedButton="@+id/forecast_obdobie_1m"
+	        android:orientation="horizontal" >
+	
+	        <RadioButton
+	            android:id="@+id/forecast_obdobie_1m"
+	            style="@style/add_dialog_pohyb_radio_space"
+	            android:text="@string/forecast_obdobie_1m" />
+	
+	        <RadioButton
+	            android:id="@+id/forecast_obdobie_3m"
+	            style="@style/add_dialog_pohyb_radio_space"
+	            android:text="@string/forecast_obdobie_3m" />
+	
+	        <RadioButton
+	            android:id="@+id/forecast_obdobie_6m"
+	            style="@style/wrap_wrap"
+	            android:text="@string/forecast_obdobie_6m" />
+	    </RadioGroup>
+	
+	    <Button 
+	        android:id="@+id/forecast_btn_forecast"
+	        android:text="@string/generate"
+	        android:layout_below="@+id/forecast_obdobie"
+	        android:layout_centerHorizontal="true"
+	        style="@style/button_style_small"
+	        />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/forecast_graf"
+        style="@style/match_match"
+        android:background="@android:color/white" >
+
+        <!-- ADDING GRAPH PROGRAMATICALLY -->
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/kategoria_row" 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/listrow">
+    <TextView 
+        android:id="@+id/kategoria_row_id"
+        style="@style/listrow_id"/>
+    <View 
+        android:id="@+id/kategoria_row_farba_view"
+        style="@style/listrow_color"/>
+    <TextView 
+        android:id="@+id/kategoria_row_nazov"
+        style="@style/listrowitem_left_upper"
+        android:text="Nazov"
+        />
+    <TextView 
+        android:id="@+id/kategoria_row_sum_kredit"
+	    style="@style/listrowitem_right_upper"
+	    android:textColor="@color/kredit"
+        />
+    <TextView 
+        android:id="@+id/kategoria_row_sum_debet"
+        android:layout_below="@+id/kategoria_row_sum_kredit"
+        style="@style/listrowitem_right_lower"
+        android:textColor="@color/debet"
+        />
+</RelativeLayout>

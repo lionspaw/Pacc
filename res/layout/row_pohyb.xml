@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/pohyb_row" 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/listrow">
+    <TextView 
+        android:id="@+id/pohyb_row_id"
+        style="@style/listrow_id"/>
+    <View 
+        android:id="@+id/pohyb_row_farba_view"
+        style="@style/listrow_color"
+        android:background="@color/debet"/>
+    <TextView 
+        android:id="@+id/pohyb_row_ucet_nazov"
+       	style="@style/listrowitem_pohyb_left_upper"
+        android:text="nazov uctu"
+        />
+        <TextView
+        android:id="@+id/pohyb_row_poznamka"
+        style="@style/listrowitem_left_lower"
+        android:layout_below="@id/pohyb_row_ucet_nazov"
+        android:text="Poznamka" />
+
+	<TextView 
+        android:id="@+id/pohyb_row_suma"
+        android:textColor="#00FF00"
+        style="@style/listrowitem_pohyb_right_upper"
+        android:text="+1200$"
+        />
+    <TextView 
+        android:id="@+id/pohyb_row_dat_cas"
+        style="@style/listrowitem_right_lower"
+        android:layout_below="@id/pohyb_row_poznamka"
+        android:text="12:25 12.12.2012"
+        />
+</RelativeLayout>

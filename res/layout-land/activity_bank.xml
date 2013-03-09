@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match"
+    android:orientation="horizontal">
+    
+    <fragment
+        android:id="@+id/fragment_banka_list"
+        style="@style/weight1"
+        class="osobny.uctovnik.fragments.BankaListFragment">
+    </fragment>
+	<View style="@style/fragment_border"/>"
+    <fragment
+        android:id="@+id/fragment_ucet_list"
+        style="@style/weight1"
+        class="osobny.uctovnik.fragments.UcetListFragment" >
+    </fragment>
+</LinearLayout> 

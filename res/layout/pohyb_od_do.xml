@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_wrap"
+    android:orientation="vertical" >
+
+    <ScrollView style="@style/add_dialog_scroll_view" >
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="vertical" >
+
+            <CheckBox
+                style="@style/add_dialog_spinner_label"
+                android:checked="false"
+                android:id="@+id/oddo_pohyb_datum_od_check"
+                android:text="@string/datum_od" />
+
+            <DatePicker
+                android:id="@+id/oddo_pohyb_datum_od"
+                style="@style/match_wrap" />
+
+            <CheckBox
+                style="@style/add_dialog_spinner_label"
+                android:checked="false"
+                android:id="@+id/oddo_pohyb_datum_do_check"
+                android:text="@string/datum_do" />
+
+            <DatePicker
+                android:id="@+id/oddo_pohyb_datum_do"
+                style="@style/match_wrap" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout style="@style/match_wrap" >
+
+        <Button
+            android:id="@+id/oddo_pohyb_naspat"
+            style="@style/add_dialog_btn_weight"
+            android:text="@string/naspat" />
+
+        <Button
+            android:id="@+id/oddo_pohyb_ok"
+            style="@style/add_dialog_btn_weight"
+            android:text="@string/nastavit" />
+    </LinearLayout>
+
+</LinearLayout>

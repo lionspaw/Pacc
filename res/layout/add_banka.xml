@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_wrap"
+    android:orientation="vertical" >
+
+    <ScrollView style="@style/add_dialog_scroll_view" >
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/add_banka_id"
+                style="@style/listrow_id" />
+
+            <EditText
+                android:id="@+id/add_banka_nazov"
+                style="@style/add_dialog_side_bottom_margins"
+                android:hint="@string/add_banka_nazov_hint"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/add_banka_cislo"
+                style="@style/add_dialog_side_margins"
+                android:digits="0123456789"
+                android:hint="@string/add_banka_cislo_hint"
+                android:inputType="number" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout style="@style/match_wrap" >
+
+        <Button
+            android:id="@+id/dialog_naspat"
+            style="@style/add_dialog_btn_weight"
+            android:text="@string/naspat" />
+
+        <Button
+            android:id="@+id/dialog_add"
+            style="@style/add_dialog_btn_weight"
+            android:text="@string/pridat" />
+    </LinearLayout>
+
+</LinearLayout>

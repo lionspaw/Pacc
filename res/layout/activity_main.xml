@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match"
+    android:background="@color/list_item_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/match_match" >
+
+        <Button
+            android:id="@+id/main_btn_banka"
+            style="@style/button_style_center"
+            android:text="@string/activity_main_btn_banka" />
+
+        <Button
+            android:id="@+id/main_btn_ucet"
+            style="@style/button_style_center"
+            android:layout_below="@+id/main_btn_banka"
+            android:text="@string/activity_main_btn_ucet" />
+
+        <Button
+            android:id="@+id/main_btn_pohyb"
+            style="@style/button_style_center"
+            android:layout_below="@+id/main_btn_ucet"
+            android:text="@string/activity_main_btn_pohyb" />
+
+        <Button
+            android:id="@+id/main_btn_kategoria"
+            style="@style/button_style_center"
+            android:layout_below="@+id/main_btn_pohyb"
+            android:text="@string/activity_main_btn_kategoria" />
+
+        <Button
+            android:id="@+id/main_btn_import"
+            style="@style/button_style_center"
+            android:layout_below="@+id/main_btn_kategoria"
+            android:text="@string/activity_main_btn_import" />
+
+        <Button
+            android:id="@+id/main_btn_export"
+            style="@style/button_style_center"
+            android:layout_below="@+id/main_btn_import"
+            android:text="@string/activity_main_btn_export" />        
+        
+        <Button
+            android:id="@+id/main_btn_prognoza"
+            style="@style/button_style_center"
+            android:layout_below="@+id/main_btn_export"
+            android:text="@string/activity_main_btn_prognoza" />
+        
+        <Button
+            android:id="@+id/main_btn_help"
+            style="@style/button_style_center"
+            android:layout_below="@+id/main_btn_prognoza"
+            android:text="@string/activity_main_btn_help" />
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pacc</string>
+    <string name="activity_main_title">Pacc</string>
+    <string name="activity_main_btn_banka">Banky</string>
+    <string name="activity_main_btn_ucet">Účty</string>
+    <string name="activity_main_btn_pohyb">Pohyby</string>
+    <string name="activity_main_btn_kategoria">Kategórie</string>
+    <string name="activity_main_btn_prognoza">Prognóza</string>
+    <string name="activity_main_btn_export">Export</string>
+	<string name="activity_main_btn_import">Import</string>
+	<string name="activity_main_btn_help">Help</string>
+    <string name="activity_main_forecast_not_ready">Táto funkcionalita bude dostupná v ďalšej verzii</string>
+	
+   	<string name="menu_add_ucet">Pridať účet</string>
+   	<string name="menu_add_banka">Pridať banku</string>
+   	<string name="menu_add_kategoria">Pridať kategóriu</string>
+   	<string name="menu_add_pohyb">Pridať pohyb</string>
+   	<string name="menu_show_all">Zobraziť všetko</string>
+   	<string name="menu_od_do">Od-Do</string>
+   	<string name="menu_add_prevod">Prevod</string>
+   	
+   	<string name="add_banka_title">Banka</string>
+    <string name="add_banka_nazov_hint">Názov banky</string>
+   	<string name="add_banka_cislo_hint">Číslo banky</string>
+   	<string name="row_banka_ucty">Účty: </string>
+   	<string name="add_banka_err_prazdny_nazov">Názov banky musí byť vyplnený</string>
+   	
+   	<string name="add_kategoria_title">Kategória</string>
+   	<string name="add_kategoria_nazov_hint">Názov kategórie</string>
+   	<string name="add_kategoria_farba">Farba kategórie</string>
+   	<string name="add_kategoria_farba_pre_kat">Farba pre kategóriu</string>
+   	<string name="add_kategoria_err_prazdny_nazov">Názov kategórie musí byť vyplnený</string>
+   	
+   	<string name="add_pohyb_title">Pohyb</string>
+   	<string name="add_pohyb_suma_hint">Suma</string>
+   	<string name="add_pohyb_poznamka_hint">Poznámka</string>
+   	<string name="add_pohyb_cr">Kredit</string>
+   	<string name="add_pohyb_db">Debet</string>
+   	<string name="add_pohyb_ucet">Účet:</string>
+   	<string name="add_pohyb_kategoria">Kategória:</string>
+   	<string name="add_pohyb_dat_cas">Dátum a čas:</string>
+   	<string name="add_pohyb_err_ucet">Pre zadanie pohybu musí existovať aspoň jeden účet</string>
+   	<string name="add_pohyb_err_kat">Pre zadanie pohybu musí existovať aspoň jedna kategória</string>
+   	<string name="add_pohyb_err_prazdna_suma">Suma pohybu musí byť vyplnený</string>
+   	<string name="add_pohyb_err_zla_suma">Nesprávna hodnota sumy</string>
+   	
+   	<string name="add_previd_title">Prevod</string>
+   	<string name="add_prevod_z">Z účtu:</string>
+   	<string name="add_prevod_na">Na účet:</string>
+   	<string name="add_prevod_kateg">Kategória:</string>
+   	<string name="add_prevod_err_zla_suma">Nesprávna hodnota sumy</string>
+   	<string name="add_prevod_err_same_acc">Prevod na rovnaké účty nemá zmysel</string>
+   	<string name="add_prevod_err_prazdna_suma">Suma prevodu musí byť vyplnený</string>
+   	<string name="add_prevod_poznamka_z">Prevod z</string>
+   	<string name="add_prevod_poznamka_na">Prevod na</string>
+   	
+   	<string name="add_ucet_title">Účet</string>
+   	<string name="add_ucet_nazov_hint">Názov účtu</string>
+   	<string name="add_ucet_cislo_hint">Číslo účtu</string>
+   	<string name="add_ucet_zost_hint">Zostatok</string>
+   	<string name="add_ucet_dist_zost_hint">Disponibilný zostatok</string>
+   	<string name="add_ucet_mena_hint">Mena účtu</string>
+   	<string name="add_ucet_banka">Banka:</string>
+   	<string name="add_ucet_err_bank">Pre zadanie účtu musí existovať aspoň jedna banka</string>
+   	<string name="add_ucet_err_prazdny_nazov">Názov účtu musí byť vyplnený</string>
+   	<string name="add_ucet_err_zly_zost">Nesprávna hodnota zostatku</string>
+   	<string name="add_ucet_err_zly_disp_zost">Nesprávna hodnota disponibilného zostatku</string>
+   	
+   	<string name="banka_rem_err_ucet">Banku nie je možné odstrániť, má priradený účet</string>
+   	<string name="kategoria_rem_err_pohyb">Kategóriu nie je možné odstrániť, má priradený pohyb</string>
+   	<string name="ucet_rem_err_pohyb">Účet nie je možné odstrániť, má priradený pohyb</string>
+    
+    <string name="title_activity_kategoria">Kategórie</string>
+    <string name="title_activity_banka">Banky</string>
+    <string name="title_activity_ucet">Účty</string>
+    <string name="title_activity_pohyb">Pohyby</string>
+    <string name="title_activity_graf">Graf</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_forecast">Predpoveď</string>
+	
+	<string name="pohyb_oddo_title">Interval pohybov</string>
+	<string name="graf_title">Pohyby</string>
+	<string name="graf_title_od">od</string>
+	<string name="graf_title_do">do</string>
+	
+	<string name="forecast_ucet">Účet:</string>
+	<string name="forecast_obdobie">Obdobie v mesiacoch:</string>
+	<string name="forecast_obdobie_1m">1</string>
+	<string name="forecast_obdobie_3m">3</string>
+	<string name="forecast_obdobie_6m">6</string>
+	<string name="forecast_err_no_ucet">Musí existovať aspoň jeden účet na generovanie prognózy</string>	
+	
+	<string name="empty_list">Prosím pridajte záznam</string>
+	<string name="selecting_data">Načítanie údajov</string>
+	<string name="pridat">Pridať</string>
+	<string name="modifikovat">Modifikovať</string>
+	<string name="naspat">Naspať</string>
+	<string name="nastavit">Nastaviť</string>
+	<string name="datum_od">Dátum od:</string>
+	<string name="datum_do">Dátum do:</string>
+	<string name="suma">∑</string>
+	<string name="euro">€</string>
+	<string name="text_suma">Suma</string>
+	<string name="text_cr">Kredit</string>
+	<string name="text_db">Debet</string>
+	<string name="text_original">Pôvodné</string>
+	<string name="text_forecasted">Predpovedané</string>
+	
+	<string name="export_no_external_storage">Neexistuje externé úložisko</string>
+	<string name="export_success">Súbor úspešne exportovaný ako:</string>
+	<string name="export_error">Nastala chyba pri exportovaní</string>
+	<string name="export_dialog_file_exists_text">Želáte si ho prepísať?</string>
+	<string name="export_dialog_file_exists_title">Súbor už existuje</string>
+	<string name="export_no_data">Nie sú dáta, ktoré by mohli byť exportované</string>
+	<string name="overwrite">Prepísať</string>
+	<string name="no">Nie</string>
+	<string name="import_success">Import prebehol úspešne</string>
+	<string name="import_error">Chyba pri importovaní</string>
+	<string name="import_error_constraint">Duplicitné dáta, skúste vymazať aktuálne dáta pred imporotvaním</string>
+	<string name="import_no_app_for_open">Nenašla sa aplikácia na otvorenie súboru</string>
+	<string name="import_dialog_cleardb_text">Želáte si zanechať existujúce dáta?</string>
+	<string name="import_dialog_cleardb_title">Pozor</string>
+	<string name="clear">Odstrániť</string>
+	<string name="keep">Zanechať</string>
+	<string name="generate">Generuj</string>
+	
+	<string name="dialog_tag_banka_add">dialog_tag_banka_add</string>
+   	<string name="dialog_tag_kategoria_add">dialog_tag_kategoria_add</string>
+   	<string name="dialog_tag_ucet_add">dialog_tag_ucet_add</string>
+   	<string name="dialog_tag_pohyb_add">dialog_tag_pohyb_add</string>
+   	<string name="dialog_tag_prevod_add">dialog_tag_prevod_add</string>
+   	<string name="dialog_tag_banka_edit">dialog_tag_banka_edit</string>
+   	<string name="dialog_tag_kategoria_edit">dialog_tag_kategoria_edit</string>
+   	<string name="dialog_tag_ucet_edit">dialog_tag_ucet_edit</string>
+   	<string name="dialog_tag_pohyb_edit">dialog_tag_pohyb_edit</string>
+   	<string name="dialog_tag_pohyb_oddo">dialog_tag_pohyb_oddo</string>
+   	<string name="intent_msg_banka_id">intent_msg_banka_id</string>
+   	<string name="intent_msg_ucet_id">intent_msg_ucet_id</string>
+   	<string name="intent_msg_pohyb_id">intent_msg_pohyb_id</string>
+   	<string name="intent_msg_kategoria_id">intent_msg_kategoria_id</string>
+   	<string name="intent_msg_datum_od">intent_msg_datum_od</string>
+   	<string name="intent_msg_datum_do">intent_msg_datum_do</string>
+   	<string name="intent_msg_list_pohyb">intent_msg_list_pohyb</string>
+   	
+   	<string name="help_caption_0">Úvod</string>
+   	<string name="help_text_0">Mobilná aplikácia Pacc predstavuje jednoduchý spôsob k správe finančných prostriedkov na tvojom osobnom účte. Aplikácia je určená k evidencii tvojich financií, podporuje sumarizáciu a kategorizáciu ako výdavkov tak aj príjmov. Swipe-nutím prejdeš na ďalšiu stranu prehliadky, ktorá ti prezradí, ako rýchlo a jednoducho môžete ovládať túto aplikáciu.</string>
+   	<string name="help_caption_1">Záložky</string>
+   	<string name="help_text_1">Aplikácia je pre jednoduchosť ovládania rozdelená na niekoľko základných prvkov. Medzi záložkami hlavného menu vždy nájdeš tlačidlá ako: Banky, Účty, Kategórie a Pohyby. Na začiatku je potrebné zadať, v ktorej banke je vedený tvoj osobný účet a akého je typu. Následne je nutné definovať oblasť kategórií, do ktorých budeš rozdelovať svoje výdavky a príjmi. Potom môžeš smelo zadávať a triediť svoje pohyby na účte.</string>
+   	<string name="help_caption_2">Ovládanie</string>
+   	<string name="help_text_2">Pridávať obsah môžeš pomocou tlačidla v hornom menu. Zmeniť alebo zmazať údaje môžeš pomocou pohybu swipe. Swipe-nutím doprava nad vybraným záznamom zmeníš farbu jeho pozadia na zelenú. To znamená, že sa ti otvorila možnosť pre úpravu záznamu a môžeš zmeniť jeho obsah. Swipe-nutím doľava zmeníš farbu pozadia na červenú a záznam bude natrvalo odstránený.</string>
+   	<string name="help_caption_3">Finančná prognóza</string>
+   	<string name="help_text_3">Mobilná aplikácia Pacc ti umožní prognózu zostatkov na tvojich účtov podľa historických údajov. Len si vyber jeden z tvojich účtov a počet predchádzajúcich mesiacov z čoho sa vypočíta predpoveď stavu účtu.</string>
+   	<string name="help_caption_4">Kontakt</string>
+   	<string name="help_text_4">Pacc - "Správca tvojich osobných financií."\nlionspaw.software@gmail.com</string>
+</resources>

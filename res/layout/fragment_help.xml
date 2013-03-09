@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match" >
+    <TextView
+        android:id="@+id/help_caption"
+        style="@style/wrap_wrap_18" />
+    <ScrollView style="@style/match_match" 
+        android:paddingBottom="20dp"
+        android:layout_below="@+id/help_caption"
+        >
+        <TextView
+            android:id="@+id/help_text"
+            style="@style/wrap_wrap_14" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/help_page_num"
+        style="@style/wrap_wrap_14"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

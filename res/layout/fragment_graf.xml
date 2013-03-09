@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match_match"
+    android:id="@+id/graf_layout"
+    android:background="@android:color/white">
+    <!-- ADDING GRAPH PROGRAMATICALLY -->
+</LinearLayout>

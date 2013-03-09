@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match_match"
+    android:background="@color/list_item_bg">
+
+    <ListView
+        android:id="@android:id/list"
+        style="@style/match_match"
+        android:background="@color/list_item_bg"
+        android:choiceMode="singleChoice"
+        android:listSelector="@color/list_item_bg_selected" />
+
+    <TextView
+        android:id="@android:id/empty"
+        style="@style/wrap_wrap"
+        android:visibility="invisible"
+        android:layout_centerInParent="true"
+        android:text="@string/selecting_data" />
+
+    <ProgressBar
+        android:id="@+id/fragment_list_progress_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_below="@android:id/empty"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

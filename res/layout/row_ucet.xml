@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/ucet_row" 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/listrow">
+    <TextView 
+        android:id="@+id/ucet_row_id"
+        style="@style/listrow_id"/>
+    <View 
+        android:id="@+id/ucet_row_farba_view"
+        style="@style/listrow_color"/>
+    <TextView 
+        android:id="@+id/ucet_row_nazov"
+        style="@style/listrowitem_left_upper"
+        android:text="Nazov uctu"
+        />
+    <TextView 
+        android:id="@+id/ucet_row_cislo"
+        android:layout_below="@+id/ucet_row_nazov"
+        android:text="1234567890"
+        style="@style/listrowitem_left_lower"
+        />
+    <TextView 
+        android:id="@+id/ucet_row_disp_zostatok"
+        style="@style/listrowitem_right_upper"
+        android:text=" (1200) EUR"
+        />
+    <TextView 
+        android:id="@+id/ucet_row_zostatok"
+        style="@style/listrowitem_right_upper_second"
+        android:layout_toLeftOf="@+id/ucet_row_disp_zostatok"
+        android:text="1000"
+        />
+    <TextView 
+        android:id="@+id/ucet_row_banka"
+        style="@style/listrowitem_right_lower"
+        android:layout_below="@id/ucet_row_disp_zostatok"
+        android:text="Banka kell?"
+        />
+</RelativeLayout>

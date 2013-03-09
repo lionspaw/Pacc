@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_bg_delete">#DD0000</color>
+    <color name="list_item_bg_edit">#00DD00</color>
+    <color name="list_item_bg_selected">#b6c9de</color>
+    <color name="list_item_bg">#fff</color>
+    <color name="kredit">#0f0</color>
+    <color name="debet">#f00</color>
+    <color name="graf_kredit">#0f0</color>
+    <color name="graf_debet">#f00</color>
+    <color name="graf_sum">#BB0</color>
+    <color name="graf_forec">#33CCFF</color>
+    <color name="graf_forec_fill">#AA33CCFF</color>
+    <color name="graf_orig">#33CC99</color>
+    <color name="graf_orig_fill">#AA33CC99</color>
+    <color name="base_kategoria">#0CF3F7</color>
+    <color name="action_bar_bg_start">#839cab</color>
+    <color name="action_bar_bg_end">#708794</color>
+    
+    <color name="btn_border">#839cab</color>
+    <color name="btn_border_focused">#738c9b</color>
+    <color name="btn_border_pressed">#637c8b</color>
+    <color name="btn_bg">#e8f1f2</color>
+    <color name="btn_bg_focused">#b6c9de</color>
+</resources>

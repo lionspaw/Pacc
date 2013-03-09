@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_wrap"
+    android:orientation="vertical" >
+
+    <ScrollView style="@style/add_dialog_scroll_view" >
+
+        <RelativeLayout
+            style="@style/match_wrap"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/add_pohyb_id"
+                style="@style/listrow_id" />
+
+            <EditText
+                android:id="@+id/add_pohyb_suma"
+                style="@style/add_dialog_side_bottom_margins"
+                android:hint="@string/add_pohyb_suma_hint"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/add_pohyb_poznamka"
+                android:layout_below="@+id/add_pohyb_suma"
+                style="@style/add_dialog_side_margins"
+                android:hint="@string/add_pohyb_poznamka_hint"
+                android:inputType="text" />
+
+            <RadioGroup
+                android:id="@+id/add_pohyb_rb"
+                android:layout_below="@+id/add_pohyb_poznamka"
+                style="@style/match_wrap"
+                android:checkedButton="@+id/add_pohyb_rb_kredit"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/add_pohyb_rb_kredit"
+                    style="@style/add_dialog_pohyb_radio_space"
+                    android:text="@string/add_pohyb_cr" />
+
+                <RadioButton
+                    android:id="@+id/add_pohyb_rb_debet"
+                    style="@style/wrap_wrap"
+                    android:text="@string/add_pohyb_db" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/add_pohyb_ucty_text"
+                style="@style/add_dialog_spinner_label"
+                android:layout_below="@+id/add_pohyb_rb"
+                android:layout_alignBaseline="@+id/add_pohyb_ucty"
+                android:text="@string/add_pohyb_ucet" />
+
+            <Spinner
+                android:id="@+id/add_pohyb_ucty"
+                android:layout_toRightOf="@+id/add_pohyb_ucty_text"
+                android:layout_below="@+id/add_pohyb_rb"
+                style="@style/add_dialog_side_margins" />
+
+            <TextView
+                android:id="@+id/add_pohyb_kategorie_text"
+                style="@style/add_dialog_spinner_label"
+                android:layout_below="@+id/add_pohyb_ucty"
+                android:layout_alignBaseline="@+id/add_pohyb_kategorie"
+                android:text="@string/add_pohyb_kategoria" />
+
+            <Spinner
+                android:id="@+id/add_pohyb_kategorie"
+                android:layout_toRightOf="@+id/add_pohyb_kategorie_text"
+                android:layout_below="@+id/add_pohyb_ucty"
+                style="@style/add_dialog_side_margins" />
+
+            <TextView
+                android:id="@+id/add_pohyb_datum_text"
+                android:layout_below="@+id/add_pohyb_kategorie"
+                style="@style/add_dialog_spinner_label"
+                android:text="@string/add_pohyb_dat_cas" />
+
+            <DatePicker
+                android:id="@+id/add_pohyb_datum"
+                android:layout_below="@+id/add_pohyb_datum_text"
+                style="@style/match_wrap" />
+
+            <TimePicker
+                android:id="@+id/add_pohyb_cas"
+                android:layout_below="@+id/add_pohyb_datum"
+                style="@style/match_wrap" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout style="@style/match_wrap" >
+
+        <Button
+            android:id="@+id/dialog_naspat"
+            style="@style/add_dialog_btn_weight"
+            android:text="@string/naspat" />
+
+        <Button
+            android:id="@+id/dialog_add"
+            style="@style/add_dialog_btn_weight"
+            android:text="@string/pridat" />
+    </LinearLayout>
+
+</LinearLayout>

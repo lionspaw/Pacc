@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match_match" 
+    android:background="@color/list_item_bg">
+
+    <ListView
+        android:id="@android:id/list"
+        style="@style/match_match"
+        android:layout_marginBottom="50dp"
+        android:choiceMode="singleChoice"
+        android:listSelector="@color/list_item_bg_selected" 
+        android:background="@color/list_item_bg"/>
+
+    <TextView
+        android:id="@+id/fragment_list_pohyb_sum_debet"
+        style="@style/pohyb_list_sum"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/debet"/>
+
+    <TextView
+        android:id="@+id/fragment_list_pohyb_sum_kredit"
+        style="@style/pohyb_list_sum"
+        android:layout_above="@+id/fragment_list_pohyb_sum_debet"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/kredit" />
+    
+	<View 
+	    android:layout_above="@+id/fragment_list_pohyb_sum_kredit"
+	    android:layout_height="1dp"
+	    android:background="@color/action_bar_bg_start"
+	    android:layout_width="match_parent"
+	    />
+    
+    <TextView
+        android:id="@android:id/empty"
+        style="@style/wrap_wrap"
+        android:layout_centerInParent="true"
+        android:text="@string/selecting_data"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/fragment_list_progress_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@android:id/empty"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_wrap"
+    android:orientation="vertical" >
+
+    <ScrollView style="@style/add_dialog_scroll_view" >
+
+        <RelativeLayout style="@style/match_wrap" >
+
+            <TextView
+                android:id="@+id/add_prevod_z_text"
+                style="@style/add_dialog_spinner_label"
+                android:layout_alignBaseline="@+id/add_prevod_z"
+                android:text="@string/add_prevod_z" />
+
+            <Spinner
+                android:id="@+id/add_prevod_z"
+                style="@style/add_dialog_side_margins"
+                android:layout_toRightOf="@+id/add_prevod_z_text" />
+
+            <TextView
+                android:id="@+id/add_prevod_na_text"
+                style="@style/add_dialog_spinner_label"
+                android:layout_alignBaseline="@+id/add_prevod_na"
+                android:layout_below="@+id/add_prevod_z"
+                android:text="@string/add_prevod_na" />
+
+            <Spinner
+                android:id="@+id/add_prevod_na"
+                style="@style/add_dialog_side_margins"
+                android:layout_below="@+id/add_prevod_z"
+                android:layout_toRightOf="@+id/add_prevod_na_text" />
+
+            <TextView
+                android:id="@+id/add_prevod_kategoria_text"
+                style="@style/add_dialog_spinner_label"
+                android:layout_alignBaseline="@+id/add_prevod_kategoria"
+                android:layout_below="@+id/add_prevod_na"
+                android:text="@string/add_prevod_kateg" />
+
+            <Spinner
+                android:id="@+id/add_prevod_kategoria"
+                style="@style/add_dialog_side_margins"
+                android:layout_below="@+id/add_prevod_na"
+                android:layout_toRightOf="@+id/add_prevod_na_text" />
+
+            <EditText
+                android:id="@+id/add_prevod_suma"
+                style="@style/add_dialog_side_bottom_margins"
+                android:layout_below="@+id/add_prevod_kategoria"
+                android:hint="@string/add_pohyb_suma_hint"
+                android:inputType="numberDecimal" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout style="@style/match_wrap" >
+
+        <Button
+            android:id="@+id/dialog_naspat"
+            style="@style/add_dialog_btn_weight"
+            android:text="@string/naspat" />
+
+        <Button
+            android:id="@+id/dialog_add"
+            style="@style/add_dialog_btn_weight"
+            android:text="@string/pridat" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match"
+    android:orientation="vertical" >
+    <fragment 
+        android:id="@+id/fragment_ucet_list"
+        style="@style/match_match"
+        class="osobny.uctovnik.fragments.UcetListFragment"
+        />
+
+</LinearLayout>

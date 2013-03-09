@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_pohyb_add"
+        android:title="@string/menu_add_pohyb"
+        android:icon="@drawable/ic_add_pohyb"
+        android:orderInCategory="30"
+        android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menu_pohyb_od_do"
+        android:icon="@drawable/ic_oddo_pohyb"
+        android:title="@string/menu_od_do"
+        android:orderInCategory="40"
+        android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menu_pohyb_prevod"
+        android:title="@string/menu_add_prevod"
+        android:orderInCategory="50"
+        android:showAsAction="ifRoom|withText" />
+</menu>

@@ -1,0 +1,165 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="listrow_height">
+        <item name="android:layout_height">65dp</item>
+    </style>
+    
+    <style name="listrow" parent="@style/listrow_height">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:background">@color/list_item_bg</item>
+    </style>  
+    
+    <style name="wrap_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="match_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="match_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="listrow_id" parent="@style/wrap_wrap">
+        <item name="android:visibility">gone</item>
+    </style>
+    
+    <style name="listrow_color" parent="@style/listrow_height">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">10dp</item>
+    </style>
+    
+    <style name="wrap_wrap_14" parent="@style/wrap_wrap">
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <style name="wrap_wrap_18" parent="@style/wrap_wrap">
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+    <style name="listrowitem_left_upper" parent="@style/wrap_wrap_18">
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+    <style name="listrowitem_left_lower" parent="@style/wrap_wrap_14">
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="listrowitem_right_upper" parent="@style/wrap_wrap_18">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="listrowitem_right_upper_second" parent="@style/wrap_wrap_18">
+        <item name="android:paddingTop">5dp</item>
+    </style>
+    <style name="listrowitem_right_lower" parent="@style/wrap_wrap_14">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="listrowitem_pohyb_left_upper" parent="@style/wrap_wrap_18">
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="listrowitem_pohyb_right_upper" parent="@style/wrap_wrap_18">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    
+    <style name="add_dialog_side_margins" parent="@style/match_wrap">
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+    </style>
+    
+    <style name="add_dialog_spinner_label" parent="@style/wrap_wrap">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+    <style name="forecast_label" parent="@style/wrap_wrap">
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+    <style name="add_dialog_side_bottom_margins" parent="@style/add_dialog_side_margins">
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+    
+    <style name="add_dialog_kategoria_farba">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:background">@color/base_kategoria</item>
+    </style>
+    
+    <style name="add_dialog_pohyb_radio_space" parent="@style/wrap_wrap">
+        <item name="android:paddingRight">2dp</item>
+    </style>
+    
+    <style name="weight">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    
+    <style name="weight1" parent="@style/weight">
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+    <style name="weight2" parent="@style/weight">
+        <item name="android:layout_weight">2</item>
+    </style>
+    
+    <style name="add_dialog_btn_weight">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="add_dialog_scroll_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+    <style name="pohyb_list_sum">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">23dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingRight">3dp</item>
+    </style>
+    
+    <style name="MainTheme" parent="Theme.Sherlock.Light">
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="Widget.Sherlock.Light.ActionBar">
+        <item name="android:background">@drawable/actionbar_bg</item>
+        <item name="background">@drawable/actionbar_bg</item>
+    </style>
+    
+    <style name="fragment_border">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/action_bar_bg_start</item>
+    </style>
+    
+    <style name="button_style">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="button_style_center" parent="@style/button_style">
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="button_style_small" parent="@style/button_style">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+</resources>
