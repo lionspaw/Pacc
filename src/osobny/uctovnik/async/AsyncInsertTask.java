@@ -33,7 +33,7 @@ public class AsyncInsertTask<O extends IdObject> extends AsyncTask<O, O, Void> {
 	@Override
 	protected void onProgressUpdate(O... progress) {
 		for (O object: progress) {
-			mAdapter.add(object);
+			mAdapter.insert(object,0);
 		}
 	}
 	

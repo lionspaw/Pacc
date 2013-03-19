@@ -75,7 +75,7 @@ public abstract class BaseController<T extends BaseListFragment, O extends IdObj
 		getDataSource().open();
 		object.setId(getDataSource().create(object));
 		getDataSource().close();
-		getAdapter().add(object);
+		getAdapter().insert(object, 0);
 	}
 	
 	public void syncUpdate(O object) {

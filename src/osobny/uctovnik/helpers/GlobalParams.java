@@ -14,7 +14,7 @@ public class GlobalParams {
 	 * */
 	public static Calendar datumOd = null;
 	public static Calendar datumDo = null;
-	public static boolean isAsync = !(VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB 
-			&& VERSION.SDK_INT <= Build.VERSION_CODES.HONEYCOMB_MR2); //Pre Android 3.0, 3.1, 3.2 robim vsetko synchronne
+	public static boolean isAsync = VERSION.SDK_INT > Build.VERSION_CODES.HONEYCOMB_MR2; 
+	//Pre Android <= 3.2 robim vsetko synchronne
 	
 }
