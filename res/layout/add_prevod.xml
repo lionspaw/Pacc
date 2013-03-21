@@ -42,7 +42,7 @@
                 android:id="@+id/add_prevod_kategoria"
                 style="@style/add_dialog_side_margins"
                 android:layout_below="@+id/add_prevod_na"
-                android:layout_toRightOf="@+id/add_prevod_na_text" />
+                android:layout_toRightOf="@+id/add_prevod_kategoria_text" />
 
             <EditText
                 android:id="@+id/add_prevod_suma"
