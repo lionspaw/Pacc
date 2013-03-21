@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="activity_main_btn_banka">Bankok</string>
+    <string name="activity_main_btn_ucet">Számlák</string>
+    <string name="activity_main_btn_pohyb">Átutalás</string>
+    <string name="activity_main_btn_kategoria">Kategóriák</string>
+    <string name="activity_main_btn_prognoza">Előrejelzés</string>
+    <string name="activity_main_btn_export">Export</string>
+	<string name="activity_main_btn_import">Import</string>
+	<string name="activity_main_btn_help">Help</string>
+    <string name="activity_main_forecast_not_ready">Ez a funkció egyelőre nem elérhető</string>
+	
+   	<string name="menu_add_ucet">Új számla</string>
+   	<string name="menu_add_banka">Új bank</string>
+   	<string name="menu_add_kategoria">Új kategória</string>
+   	<string name="menu_add_pohyb">Új átutalás</string>
+   	<string name="menu_show_all">Mindent mutass</string>
+   	<string name="menu_od_do">Időtartam</string>
+   	<string name="menu_add_prevod">Áthelyezés</string>
+   	
+   	<string name="add_banka_title">Bank</string>
+    <string name="add_banka_nazov_hint">Bank neve</string>
+   	<string name="add_banka_cislo_hint">Bank azonosítója</string>
+   	<string name="row_banka_ucty">Számlák: </string>
+   	<string name="add_banka_err_prazdny_nazov">A bank neve kötelezően kitöltendő</string>
+   	
+   	<string name="add_kategoria_title">Kategória</string>
+   	<string name="add_kategoria_nazov_hint">Kategória neve</string>
+   	<string name="add_kategoria_farba">Kategória színe</string>
+   	<string name="add_kategoria_farba_pre_kat">Kategória színe</string>
+   	<string name="add_kategoria_err_prazdny_nazov">A kategória neve kötelezően kitöltendő</string>
+   	
+   	<string name="add_pohyb_title">Átutalás</string>
+   	<string name="add_pohyb_suma_hint">Összeg</string>
+   	<string name="add_pohyb_poznamka_hint">Megjegyzés</string>
+   	<string name="add_pohyb_cr">Bevétel</string>
+   	<string name="add_pohyb_db">Kiadás</string>
+   	<string name="add_pohyb_ucet">Számla:</string>
+   	<string name="add_pohyb_kategoria">Kategória:</string>
+   	<string name="add_pohyb_dat_cas">Dátum és idő:</string>
+   	<string name="add_pohyb_err_ucet">Legalább egy számla szükséges az átutalások megadásához</string>
+   	<string name="add_pohyb_err_kat">Legalább egy kategória szükséges az átutalások megadásához</string>
+   	<string name="add_pohyb_err_prazdna_suma">Az átutalás összege kötelezően kitöltendő</string>
+   	<string name="add_pohyb_err_zla_suma">Helytelen összeg</string>
+   	
+   	<string name="add_previd_title">Áthelyezés</string>
+   	<string name="add_prevod_z">Honnét:</string>
+   	<string name="add_prevod_na">Hova:</string>
+   	<string name="add_prevod_kateg">Kategória:</string>
+   	<string name="add_prevod_err_zla_suma">Helytelen összeg</string>
+   	<string name="add_prevod_err_same_acc">Az azonos számlára történő áthelyezés értelmetlen</string>
+   	<string name="add_prevod_err_prazdna_suma">Az összeg megadása kötelező</string>
+   	<string name="add_prevod_poznamka_z">Számláról: </string>
+   	<string name="add_prevod_poznamka_na">Számlára: </string>
+   	
+   	<string name="add_ucet_title">Számla</string>
+   	<string name="add_ucet_nazov_hint">Számla neve</string>
+   	<string name="add_ucet_cislo_hint">Számla száma</string>
+   	<string name="add_ucet_zost_hint">Egyenleg</string>
+   	<string name="add_ucet_dist_zost_hint">Elkölthető egyenleg</string>
+   	<string name="add_ucet_mena_hint">Pénznem</string>
+   	<string name="add_ucet_banka">Bank:</string>
+   	<string name="add_ucet_err_bank">Legalább egy bank szükséges a számlák megadásához</string>
+   	<string name="add_ucet_err_prazdny_nazov">A számla neve kötelezően kitöltendő</string>
+   	<string name="add_ucet_err_zly_zost">Helytelen egyenleg</string>
+   	<string name="add_ucet_err_zly_disp_zost">Helytelen elkölthető egyenleg</string>
+   	
+   	<string name="banka_rem_err_ucet">Sikertelen törlés: a bankhoz számlák tartoznak</string>
+   	<string name="kategoria_rem_err_pohyb">Sikertelen törlés: a kategóriához átutalások tartoznak</string>
+   	<string name="ucet_rem_err_pohyb">Sikertelen törlés: a számlákhoz átutalások tartoznak</string>
+    
+    <string name="title_activity_kategoria">Kategóriák</string>
+    <string name="title_activity_banka">Bankok</string>
+    <string name="title_activity_ucet">Számlák</string>
+    <string name="title_activity_pohyb">Átutalások</string>
+    <string name="title_activity_graf">Grafikon</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_forecast">Előrejelzés</string>
+	
+	<string name="pohyb_oddo_title">Intervallum</string>
+	<string name="graf_title">Átutalások</string>
+	<string name="graf_title_od"></string>
+	<string name="graf_title_do">-</string>
+	
+	<string name="forecast_ucet">Számla:</string>
+	<string name="forecast_obdobie">Elemzett hónapok száma:</string>
+	<string name="forecast_err_no_ucet">Az előrejelzéshez legalább egy számla szükséges</string>	
+	
+	<string name="empty_list">Üres lista</string>
+	<string name="selecting_data">Beolvasás</string>
+	<string name="pridat">Hozzáad</string>
+	<string name="modifikovat">Módosít</string>
+	<string name="naspat">Vissza</string>
+	<string name="nastavit">Beállít</string>
+	<string name="datum_od">Dátumtól:</string>
+	<string name="datum_do">Dátumig:</string>
+	<string name="text_suma">Összeg</string>
+	<string name="text_cr">Bevétel</string>
+	<string name="text_db">Kiadás</string>
+	<string name="text_original">Elemzett</string>
+	<string name="text_forecasted">Előrejelzett</string>
+	
+	<string name="export_no_external_storage">Nem létezik külső adattároló</string>
+	<string name="export_success">Sikeres export:</string>
+	<string name="export_error">Az exportálás során hiba történt</string>
+	<string name="export_dialog_file_exists_text">Létező fájl felülírása?</string>
+	<string name="export_dialog_file_exists_title">Létező fájl</string>
+	<string name="export_no_data">Nincs exportálandó adat</string>
+	<string name="overwrite">Felülír</string>
+	<string name="no">Nem</string>
+	<string name="import_success">Sikeres import</string>
+	<string name="import_error">Az importálás során hiba történt</string>
+	<string name="import_error_constraint">Sikertelen, kérem írja felül régi adatait</string>
+	<string name="import_no_app_for_open">Hiányzó program a fájl megnyitásához</string>
+	<string name="import_dialog_cleardb_text">Felülírja a létező adatokat?</string>
+	<string name="import_dialog_cleardb_title">Vigyázat</string>
+	<string name="clear">Felülír</string>
+	<string name="keep">Meghagy</string>
+	<string name="generate">Generálj</string>
+	   	
+   	<string name="help_caption_0">Bevezető</string>
+   	<string name="help_text_0">A Pacc egy egyszerű, de felettébb hasznos számlakezelő mobil aplikáció. Feladata a betáplált kiadások és bevételek mentése és csoportosítása a számláidon. Csúsztasd tovább a szöveget a következő oldalakra, ahol bemutattjuk neked mire képes és miért hasznos Pacc.</string>
+   	<string name="help_caption_1">Alkotó elemek</string>
+   	<string name="help_text_1">Az alkalmazás alapjául az általad megadott információk szolgálnak. Ezeket az információk a következők: Bankok, Számlák, Kategóriák és Átutalások. Az alkalmazás használatához megadod, milyen típusú számlákat szeretnél nyomon követni, mely bankokban. A következő lépésben létrehozod az általad kívánt kategóriákat az átutalások csoportosításához. Ezután már csak rajtad áll, hogy mely kiadásaid és bevételeid mented el.</string>
+   	<string name="help_caption_2">Irányítás</string>
+   	<string name="help_text_2">Az egyes elemekt a menüben található gombokkal hozhatod létre. A létrehozott elemek módosítása és törlése különböző mozulatsorokkal érhető el. A kívánt elem módosításához húzd az ujjad ez elemen jobbra, amíg az elem háttere nem válik zöld színűvé. Miután elengeded, lehetőséged válik a módosításra. A törlés hasonló módon történik. Húzd az ujjad a törlendő elemen balra, míg pirossá nem válik a háttere. Miután elengeded, véglegesen törlődik a rendszerből.</string>
+   	<string name="help_caption_3">Pénzügyi előrejelzés</string>
+   	<string name="help_text_3">A program része a megadott adatok alapján történő pénzügyi előrejelzés. Csak válaszd ki, melyik számlád egyenlegére vagy kíváncsi a jövőben és Pacc kiszámolja a múltbéli adatok alapján, hogy mire is számíthatsz.</string>
+   	<string name="help_caption_4">Elérhetőség</string>
+   	<string name="help_text_4">Pacc - "A pénzügyeid kezelője."\nlionspaw.software@gmail.com</string>
+</resources>
