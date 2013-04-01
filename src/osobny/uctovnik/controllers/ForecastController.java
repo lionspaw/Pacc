@@ -68,7 +68,7 @@ public class ForecastController {
 		//zoznam pohybov je zoradeny podla datumu ASC
 		//iterujeme interval datumov od zadu, ak datum posledneho elementu pohybov sa rovna aktualnemu
 		//tak pridame a pohyb odstranime zo zoznamu (aby sme nemuseli vzdy preiterovat aj zoznam pohybov)
-		for (int i = vstup.length-1; !doDatum.before(odDatum); doDatum.add(Calendar.DATE, -1), i--) {
+		for (int i = vstup.length-1; !doDatum.before(odDatum) && i>=0; doDatum.add(Calendar.DATE, -1), i--) {
 			if (pohyby.size() > 0 && Constants.areDatesEqual(doDatum,pohyby.get(pohyby.size()-1).getDatum())) { //ked k datumu existuje pohyb
 				aktStav += -1 * pohyby.get(pohyby.size()-1).getSuma();
 				//odstranime ten datum zo zoznamu pohybov
